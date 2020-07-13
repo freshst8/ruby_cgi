@@ -13,4 +13,3 @@ cgi.http_header(
 print cgi.http_header
 
 print "Hello World \n"
-print "<h1>MY NAME IS SCOTT</h1>"
