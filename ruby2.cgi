@@ -5,7 +5,7 @@ require '\path\to\ruby\module\cgi'
 cgi = CGI.new
 
 cgi.http_header(
-                  "Connection" => "close",
+                  "Connection" => "keep-alive",
                   "Type"       => "text/html",
                   "Charset"    => "utf-8"
                 )
